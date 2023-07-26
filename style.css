@@ -1,0 +1,77 @@
+/* --------------------------- Etiquetas generales -------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f1f3f5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container{
+    max-width: 960px;
+    box-shadow: 2px 5px 10px 5px #000dfe30;
+    margin: auto;
+    padding: 35px;
+    text-align: center;
+    border-radius: 25px;
+}
+table {
+    margin: auto;
+    width: 250px;
+    border-spacing: 10px 5px;
+    font-style: italic;
+ }
+ th{
+    background-color: #c7c7c79f;
+    border-radius: 10px;
+ }
+ table td{
+    margin-left: 15px;
+    margin-bottom: 350px;
+    border-radius: 60px;
+    font-size: 14px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+/* ------------------- Etiquetas para secciones específicas ------------------- */
+.ocupado{
+    background-color: #c28080af;
+    color: #0F100F;
+}
+.disponible{
+    background-color: #6df259d9;
+    color: #00061C;
+}
+.title{
+    background-color: #b0ffa4c7;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+button#btnuniclic{
+    background-color: #02087188;
+}
+button#add{
+    background-color: #6df259d9;
+}
+button#addd{
+    background-color: #b8a67f;
+}
+button#boteliminar{
+    background-color: #c28080af;
+}
+button#btnuniclic:disabled{
+    background-color: #0098f000;
+    color: rgba(0, 0, 0, 0);
+    font-size: 0px;
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="busicon.ico" type="image/x-icon">
+    <title>Autobús</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Autobús</h1>
+            <h6>Por: Cruz Mejía Daniela</h6>
+        </div>
+        <div class="info">
+            <p>
+                    <button  onclick="genera_tabla()" id="btnuniclic">Ver asientos</button> <br>
+                    Asiento número: <input type="number" disabled="true" id="numreserva"> <br>
+                    A nombre de: <input type="text" disabled="true" id="nreserva"> <br>
+                    <button type="submit" id="add" onclick="siReserva()">Reservar</button>
+                    <button type="submit" id="addd" onclick="modificar()">Modificar</button>
+                    <button type="submit" id="boteliminar" onclick="buttonclick()">Eliminar</button>
+            </p>
+        </div>
+        <script src="./autobus.js"></script>
+    </div>
+</body>
+</html>
