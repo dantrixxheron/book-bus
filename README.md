@@ -1,4 +1,4 @@
-# book-bus
+# Bus-Booking
 Página desarrollada como trabajo en la Facultad de Telemática en la carrera de Ingeniería en Software que simula el desarrollo de una página para reservar un asientos en un autobús. Práctica para evidenciar el progreso en JAVASCRIPT integrado a HTML y CSS.
 # Descripción 🖋🏸
 Proyecto destacado en Javascript: Tabla de asientos interactiva que demuestra sólidos conocimientos en el lenguaje. Permite generar, reservar, eliminar y modificar asientos de manera local. Ejemplo de habilidades para lógica y manipulación de datos en JS.
